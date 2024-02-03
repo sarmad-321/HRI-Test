@@ -1,0 +1,10 @@
+{
+    "query": {
+      "wildcard": {
+        "title.keyword": {
+          "value": "s*"
+        }
+      }
+    }
+  }
+  

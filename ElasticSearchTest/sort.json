@@ -1,0 +1,13 @@
+{
+    "query": {
+      "bool": {
+        "must": [
+          { "match": { "author": "Ariana Grande" } }
+        ]
+      }
+    },
+    "sort": [
+      { "year": { "order": "desc" } }
+    ]
+  }
+  

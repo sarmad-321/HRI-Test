@@ -1,0 +1,7 @@
+{
+    "_source": ["title", "author"],
+    "query": {
+      "match_all": {}
+    }
+  }
+  
